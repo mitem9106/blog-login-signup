@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+	float: left;
+	width: 90%
+}
+
+nav {
+	float: right;
+	width: 10%;
+	padding: 20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
